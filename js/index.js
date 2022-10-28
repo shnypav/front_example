@@ -7,7 +7,7 @@ table.addEventListener("click", function(e) {
     e.target.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];;
 });
 
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModals");
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
